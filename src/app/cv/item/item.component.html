@@ -1,0 +1,4 @@
+<div class="item" (click)="emit()" appCv>
+  <img src="{{ person.image | defaultImage }}" class="image" />
+  <p id="{{ person }}">{{ person.name }} {{ person.lastname }}</p>
+</div>

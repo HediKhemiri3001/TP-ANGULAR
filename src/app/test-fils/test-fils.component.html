@@ -1,0 +1,10 @@
+<p [ngStyle]="style()">Je suis le fils</p>
+
+<input [(ngModel)]="favoriteColor" type="color" />
+<input [(ngModel)]="taille" type="text" />
+<select [(ngModel)]="police">
+  <option value="arial">Arial</option>
+  <option value="calibri">Calibri</option>
+</select>
+
+<button (click)="favorite()">Favorite</button>

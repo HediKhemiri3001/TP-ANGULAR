@@ -1,0 +1,15 @@
+<label>Name:</label>
+<input id="name" [(ngModel)]="person.name" type="text" />
+<label>Lastname:</label>
+<input type="text" [(ngModel)]="person.lastname" name="lastname" />
+<label>Job:</label>
+<input type="text" [(ngModel)]="person.job" name="job" />
+<label>Image:</label>
+<input type="text" [(ngModel)]="person.image" name="image" />
+<label>Citation:</label>
+<input type="text" [(ngModel)]="person.citation" name="citation" />
+<label>Description:</label>
+<input type="text" [(ngModel)]="person.description" name="description" />
+<label>Keywords:</label>
+<input type="text" [(ngModel)]="person.keywords" name="keywords" />
+<button type="submit" (click)="submit()">Submit</button>

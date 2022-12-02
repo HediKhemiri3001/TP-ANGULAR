@@ -1,0 +1,11 @@
+<div class="hired-container">
+  <h1>List of hired:</h1>
+  <div *ngFor="let person of hired" class="list">
+    <app-item [person]="person" (emitPerson)="clickItem(person)"></app-item>
+  </div>
+</div>
+<div class="details">
+  <div class="">
+    <app-detail [person]="selectedProfile" [hire]="false"></app-detail>
+  </div>
+</div>

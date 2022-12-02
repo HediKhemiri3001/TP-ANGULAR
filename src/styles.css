@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap";
+@import "~ngx-toastr/toastr.css";
+@import "assets/css/rotating-card.css";
+body {
+  height: 500em;
+}

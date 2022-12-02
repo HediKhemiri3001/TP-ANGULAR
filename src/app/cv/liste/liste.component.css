@@ -1,0 +1,7 @@
+.item-list {
+  display: flex;
+  flex-direction: column;
+  height: 10em;
+  padding-top: 5em;
+  width: 15em;
+}

@@ -1,0 +1,22 @@
+<!--<div [style.background-color]="background" class="container">
+  <input
+    type="text"
+    placeholder="e.g. White"
+    (change)="inputChange($event)"
+    style="display: block"
+  />
+  {{ valeur }}
+</div>-->
+
+<app-test-fils
+  [color]="inputValue"
+  (buttonClicked)="add($event)"
+  (favoriteButtonClick)="setColor($event)"
+></app-test-fils>
+<!--<div appHighlight style="width: 15em; height: 3em">Hover over me.</div>-->
+<input
+  type="text"
+  appRainbow
+  placeholder="Write here"
+  style="border: 3px solid black"
+/>

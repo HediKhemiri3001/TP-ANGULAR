@@ -1,0 +1,19 @@
+.item {
+  height: 5em;
+  width: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  border: 1px solid black;
+}
+.item:hover {
+  cursor: pointer;
+}
+.image {
+  width: 5em;
+  height: 5em;
+  align-self: flex-start;
+  border-radius: 100%;
+}
+.text {
+}

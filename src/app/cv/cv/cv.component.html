@@ -1,0 +1,6 @@
+<div class="cv-container">
+  <app-liste (selectedChange)="changeSelected($event)" [cvs]="cvs"></app-liste>
+</div>
+<div class="details">
+  <app-detail [person]="selected" [hire]="true"></app-detail>
+</div>

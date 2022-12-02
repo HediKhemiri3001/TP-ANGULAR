@@ -1,0 +1,6 @@
+<div class="item-list">
+  <h1>List of Cvs</h1>
+  <div *ngFor="let person of cvs" class="list">
+    <app-item [person]="person" (emitPerson)="clickItem(person)"></app-item>
+  </div>
+</div>
